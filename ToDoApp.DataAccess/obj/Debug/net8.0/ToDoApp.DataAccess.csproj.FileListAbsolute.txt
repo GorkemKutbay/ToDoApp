@@ -1,0 +1,17 @@
+C:\Users\kutba\Desktop\ToDoApp\ToDoApp\ToDoApp.DataAccess\bin\Debug\net8.0\ToDoApp.DataAccess.deps.json
+C:\Users\kutba\Desktop\ToDoApp\ToDoApp\ToDoApp.DataAccess\bin\Debug\net8.0\ToDoApp.DataAccess.runtimeconfig.json
+C:\Users\kutba\Desktop\ToDoApp\ToDoApp\ToDoApp.DataAccess\bin\Debug\net8.0\ToDoApp.DataAccess.dll
+C:\Users\kutba\Desktop\ToDoApp\ToDoApp\ToDoApp.DataAccess\bin\Debug\net8.0\ToDoApp.DataAccess.pdb
+C:\Users\kutba\Desktop\ToDoApp\ToDoApp\ToDoApp.DataAccess\bin\Debug\net8.0\ToDoApp.Core.dll
+C:\Users\kutba\Desktop\ToDoApp\ToDoApp\ToDoApp.DataAccess\bin\Debug\net8.0\ToDoApp.Core.pdb
+C:\Users\kutba\Desktop\ToDoApp\ToDoApp\ToDoApp.DataAccess\obj\Debug\net8.0\ToDoApp.DataAccess.csproj.AssemblyReference.cache
+C:\Users\kutba\Desktop\ToDoApp\ToDoApp\ToDoApp.DataAccess\obj\Debug\net8.0\ToDoApp.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kutba\Desktop\ToDoApp\ToDoApp\ToDoApp.DataAccess\obj\Debug\net8.0\ToDoApp.DataAccess.AssemblyInfoInputs.cache
+C:\Users\kutba\Desktop\ToDoApp\ToDoApp\ToDoApp.DataAccess\obj\Debug\net8.0\ToDoApp.DataAccess.AssemblyInfo.cs
+C:\Users\kutba\Desktop\ToDoApp\ToDoApp\ToDoApp.DataAccess\obj\Debug\net8.0\ToDoApp.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\kutba\Desktop\ToDoApp\ToDoApp\ToDoApp.DataAccess\obj\Debug\net8.0\ToDoApp..135E9157.Up2Date
+C:\Users\kutba\Desktop\ToDoApp\ToDoApp\ToDoApp.DataAccess\obj\Debug\net8.0\ToDoApp.DataAccess.dll
+C:\Users\kutba\Desktop\ToDoApp\ToDoApp\ToDoApp.DataAccess\obj\Debug\net8.0\refint\ToDoApp.DataAccess.dll
+C:\Users\kutba\Desktop\ToDoApp\ToDoApp\ToDoApp.DataAccess\obj\Debug\net8.0\ToDoApp.DataAccess.pdb
+C:\Users\kutba\Desktop\ToDoApp\ToDoApp\ToDoApp.DataAccess\obj\Debug\net8.0\ToDoApp.DataAccess.genruntimeconfig.cache
+C:\Users\kutba\Desktop\ToDoApp\ToDoApp\ToDoApp.DataAccess\obj\Debug\net8.0\ref\ToDoApp.DataAccess.dll

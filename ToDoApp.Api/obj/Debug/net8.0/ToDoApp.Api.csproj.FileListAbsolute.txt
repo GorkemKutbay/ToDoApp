@@ -1,0 +1,7 @@
+C:\Users\kutba\Desktop\ToDoApp\ToDoApp\ToDoApp.Api\obj\Debug\net8.0\ToDoApp.Api.csproj.AssemblyReference.cache
+C:\Users\kutba\Desktop\ToDoApp\ToDoApp\ToDoApp.Api\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\kutba\Desktop\ToDoApp\ToDoApp\ToDoApp.Api\obj\Debug\net8.0\ToDoApp.Api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kutba\Desktop\ToDoApp\ToDoApp\ToDoApp.Api\obj\Debug\net8.0\ToDoApp.Api.AssemblyInfoInputs.cache
+C:\Users\kutba\Desktop\ToDoApp\ToDoApp\ToDoApp.Api\obj\Debug\net8.0\ToDoApp.Api.AssemblyInfo.cs
+C:\Users\kutba\Desktop\ToDoApp\ToDoApp\ToDoApp.Api\obj\Debug\net8.0\ToDoApp.Api.csproj.CoreCompileInputs.cache
+C:\Users\kutba\Desktop\ToDoApp\ToDoApp\ToDoApp.Api\obj\Debug\net8.0\ToDoApp.Api.MvcApplicationPartsAssemblyInfo.cache

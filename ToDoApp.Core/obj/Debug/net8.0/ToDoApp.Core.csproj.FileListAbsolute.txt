@@ -1,0 +1,12 @@
+C:\Users\kutba\Desktop\ToDoApp\ToDoApp\ToDoApp.Core\bin\Debug\net8.0\ToDoApp.Core.deps.json
+C:\Users\kutba\Desktop\ToDoApp\ToDoApp\ToDoApp.Core\bin\Debug\net8.0\ToDoApp.Core.dll
+C:\Users\kutba\Desktop\ToDoApp\ToDoApp\ToDoApp.Core\bin\Debug\net8.0\ToDoApp.Core.pdb
+C:\Users\kutba\Desktop\ToDoApp\ToDoApp\ToDoApp.Core\obj\Debug\net8.0\ToDoApp.Core.csproj.AssemblyReference.cache
+C:\Users\kutba\Desktop\ToDoApp\ToDoApp\ToDoApp.Core\obj\Debug\net8.0\ToDoApp.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kutba\Desktop\ToDoApp\ToDoApp\ToDoApp.Core\obj\Debug\net8.0\ToDoApp.Core.AssemblyInfoInputs.cache
+C:\Users\kutba\Desktop\ToDoApp\ToDoApp\ToDoApp.Core\obj\Debug\net8.0\ToDoApp.Core.AssemblyInfo.cs
+C:\Users\kutba\Desktop\ToDoApp\ToDoApp\ToDoApp.Core\obj\Debug\net8.0\ToDoApp.Core.csproj.CoreCompileInputs.cache
+C:\Users\kutba\Desktop\ToDoApp\ToDoApp\ToDoApp.Core\obj\Debug\net8.0\ToDoApp.Core.dll
+C:\Users\kutba\Desktop\ToDoApp\ToDoApp\ToDoApp.Core\obj\Debug\net8.0\refint\ToDoApp.Core.dll
+C:\Users\kutba\Desktop\ToDoApp\ToDoApp\ToDoApp.Core\obj\Debug\net8.0\ToDoApp.Core.pdb
+C:\Users\kutba\Desktop\ToDoApp\ToDoApp\ToDoApp.Core\obj\Debug\net8.0\ref\ToDoApp.Core.dll

@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="ToDoApp.Business/ToDoApp.Business.csproj" />
+  <Project Path="ToDoApp.Core/ToDoApp.Core.csproj" />
+  <Project Path="ToDoApp.DataAccess/ToDoApp.DataAccess.csproj" />
+  <Project Path="ToDoApp.Mvc/ToDoApp.Mvc.csproj" />
+</Solution>

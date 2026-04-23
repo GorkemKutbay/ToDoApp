@@ -1,0 +1,126 @@
+@model ToDoApp.Core.DTOs.Auth.CreateToDoDto
+
+@{
+    ViewData["Title"] = "Add New Task";
+}
+
+<div class="row justify-content-center mt-4 mb-5" style="align-items: center;">
+    <div class="col-md-8 col-lg-6">
+        <div class="glass-card hover-elevate">
+            <h2 class="text-gradient fw-bold text-center mb-4"><i class="bi bi-plus-square-dotted me-2"></i>Create New Task</h2>
+            
+            <form asp-controller="ToDo" asp-action="AddTodo" method="post">
+                <div class="mb-3">
+                    <label asp-for="Title" class="form-label fw-medium">Task Title</label>
+                    <input asp-for="Title" class="form-control form-control-modern" placeholder="E.g., Complete the report..." required />
+                    <span asp-validation-for="Title" class="text-danger small fw-bold mt-1 d-block"></span>
+                </div>
+                
+                <div class="mb-3">
+                    <label asp-for="Note" class="form-label fw-medium">Description (Optional)</label>
+                    <textarea asp-for="Note" class="form-control form-control-modern" rows="4" placeholder="Any additional details here..."></textarea>
+                    <span asp-validation-for="Note" class="text-danger small fw-bold mt-1 d-block"></span>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <label asp-for="DueDate" class="form-label fw-medium">Due Date (Optional)</label>
+                        <input asp-for="DueDate" type="date" class="form-control form-control-modern" />
+                        <span asp-validation-for="DueDate" class="text-danger small fw-bold mt-1 d-block"></span>
+                    </div>
+
+                    <div class="col-md-6 mb-4">
+                        <label asp-for="CategoryId" class="form-label fw-medium">Category</label>
+                        <div class="input-group">
+                            <select asp-for="CategoryId" asp-items="ViewBag.Categories" class="form-select form-control-modern" id="categorySelect" required style="border-top-right-radius: 0; border-bottom-right-radius: 0;">
+                                <option value="">-- Select Category --</option>
+                            </select>
+                            <button type="button" class="btn btn-modern-outline" style="border-radius: 0 12px 12px 0;" onclick="toggleAddCategory()" title="Create New Category">
+                                <i class="bi bi-plus-lg"></i>
+                            </button>
+                        </div>
+                        
+                        <!-- New Category Inline Form -->
+                        <div id="newCategorySection" class="mt-2 p-3 rounded" style="display: none; background: rgba(255,255,255,0.7); border: 1px dashed #764ba2;">
+                            <label class="form-label small fw-bold text-dark mb-1">New Category Name</label>
+                            <div class="input-group input-group-sm mb-1">
+                                <input type="text" id="newCategoryName" class="form-control" placeholder="E.g., Finance..." />
+                                <button type="button" class="btn btn-modern py-0 px-3" onclick="saveNewCategory()">Save</button>
+                            </div>
+                            <span id="categoryError" class="text-danger small mt-1 d-none fw-bold"></span>
+                        </div>
+
+                        <div class="form-text mt-1 text-muted" style="font-size:0.8rem;"><i class="bi bi-info-circle me-1"></i>Select or create a new category.</div>
+                        <span asp-validation-for="CategoryId" class="text-danger small fw-bold mt-1 d-block"></span>
+                    </div>
+                </div>
+
+                <div class="d-grid gap-3 d-md-flex justify-content-md-end mt-4 pt-3 border-top" style="border-color: rgba(0,0,0,0.1) !important;">
+                    <a asp-controller="ToDo" asp-action="GetAll" class="btn btn-modern-outline px-4">Cancel</a>
+                    <button type="submit" class="btn btn-modern px-5"><i class="bi bi-clipboard-check me-2"></i>Create Task</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+
+    <script>
+        function toggleAddCategory() {
+            var sec = document.getElementById('newCategorySection');
+            sec.style.display = sec.style.display === 'none' ? 'block' : 'none';
+        }
+
+        async function saveNewCategory() {
+            var name = document.getElementById('newCategoryName').value.trim();
+            var errorSpan = document.getElementById('categoryError');
+            if(!name) {
+                errorSpan.textContent = "Please enter a category name.";
+                errorSpan.classList.remove('d-none');
+                return;
+            }
+            errorSpan.classList.add('d-none');
+
+            try {
+                var formData = new FormData();
+                formData.append('name', name);
+
+                // Add anti-forgery token from the form
+                var token = document.querySelector('input[name="__RequestVerificationToken"]');
+                if (token) {
+                    formData.append('__RequestVerificationToken', token.value);
+                }
+
+                const response = await fetch('/ToDo/CreateCategoryAjax', {
+                    method: 'POST',
+                    body: formData
+                });
+
+                if(response.ok) {
+                    const data = await response.json();
+                    
+                    var select = document.getElementById('categorySelect');
+                    var option = document.createElement("option");
+                    option.text = data.name;
+                    option.value = data.id;
+                    select.add(option);
+                    
+                    select.value = data.id; 
+                    
+                    document.getElementById('newCategoryName').value = '';
+                    toggleAddCategory();
+                } else {
+                    const errMsg = await response.text();
+                    errorSpan.textContent = errMsg || "Failed to create category.";
+                    errorSpan.classList.remove('d-none');
+                }
+            } catch(e) {
+                console.error(e);
+                errorSpan.textContent = "An error occurred during category creation.";
+                errorSpan.classList.remove('d-none');
+            }
+        }
+    </script>
+}

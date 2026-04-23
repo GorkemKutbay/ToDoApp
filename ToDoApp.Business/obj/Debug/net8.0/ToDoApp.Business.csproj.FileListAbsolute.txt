@@ -1,0 +1,17 @@
+C:\Users\kutba\Desktop\ToDoApp\ToDoApp\ToDoApp.Business\bin\Debug\net8.0\ToDoApp.Business.deps.json
+C:\Users\kutba\Desktop\ToDoApp\ToDoApp\ToDoApp.Business\bin\Debug\net8.0\ToDoApp.Business.dll
+C:\Users\kutba\Desktop\ToDoApp\ToDoApp\ToDoApp.Business\bin\Debug\net8.0\ToDoApp.Business.pdb
+C:\Users\kutba\Desktop\ToDoApp\ToDoApp\ToDoApp.Business\bin\Debug\net8.0\ToDoApp.Core.dll
+C:\Users\kutba\Desktop\ToDoApp\ToDoApp\ToDoApp.Business\bin\Debug\net8.0\ToDoApp.DataAccess.dll
+C:\Users\kutba\Desktop\ToDoApp\ToDoApp\ToDoApp.Business\bin\Debug\net8.0\ToDoApp.Core.pdb
+C:\Users\kutba\Desktop\ToDoApp\ToDoApp\ToDoApp.Business\bin\Debug\net8.0\ToDoApp.DataAccess.pdb
+C:\Users\kutba\Desktop\ToDoApp\ToDoApp\ToDoApp.Business\obj\Debug\net8.0\ToDoApp.Business.csproj.AssemblyReference.cache
+C:\Users\kutba\Desktop\ToDoApp\ToDoApp\ToDoApp.Business\obj\Debug\net8.0\ToDoApp.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kutba\Desktop\ToDoApp\ToDoApp\ToDoApp.Business\obj\Debug\net8.0\ToDoApp.Business.AssemblyInfoInputs.cache
+C:\Users\kutba\Desktop\ToDoApp\ToDoApp\ToDoApp.Business\obj\Debug\net8.0\ToDoApp.Business.AssemblyInfo.cs
+C:\Users\kutba\Desktop\ToDoApp\ToDoApp\ToDoApp.Business\obj\Debug\net8.0\ToDoApp.Business.csproj.CoreCompileInputs.cache
+C:\Users\kutba\Desktop\ToDoApp\ToDoApp\ToDoApp.Business\obj\Debug\net8.0\ToDoApp..F526D943.Up2Date
+C:\Users\kutba\Desktop\ToDoApp\ToDoApp\ToDoApp.Business\obj\Debug\net8.0\ToDoApp.Business.dll
+C:\Users\kutba\Desktop\ToDoApp\ToDoApp\ToDoApp.Business\obj\Debug\net8.0\refint\ToDoApp.Business.dll
+C:\Users\kutba\Desktop\ToDoApp\ToDoApp\ToDoApp.Business\obj\Debug\net8.0\ToDoApp.Business.pdb
+C:\Users\kutba\Desktop\ToDoApp\ToDoApp\ToDoApp.Business\obj\Debug\net8.0\ref\ToDoApp.Business.dll

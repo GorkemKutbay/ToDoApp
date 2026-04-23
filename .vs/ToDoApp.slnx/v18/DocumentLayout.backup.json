@@ -1,0 +1,219 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\kutba\\Desktop\\ToDoApp\\ToDoApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B7A8FD39-2FCF-2209-E1C7-B15BA9D46963}|ToDoApp.Mvc\\ToDoApp.Mvc.csproj|c:\\users\\kutba\\desktop\\todoapp\\todoapp\\todoapp.mvc\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7A8FD39-2FCF-2209-E1C7-B15BA9D46963}|ToDoApp.Mvc\\ToDoApp.Mvc.csproj|solutionrelative:todoapp.mvc\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7A8FD39-2FCF-2209-E1C7-B15BA9D46963}|ToDoApp.Mvc\\ToDoApp.Mvc.csproj|c:\\users\\kutba\\desktop\\todoapp\\todoapp\\todoapp.mvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7A8FD39-2FCF-2209-E1C7-B15BA9D46963}|ToDoApp.Mvc\\ToDoApp.Mvc.csproj|solutionrelative:todoapp.mvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7A8FD39-2FCF-2209-E1C7-B15BA9D46963}|ToDoApp.Mvc\\ToDoApp.Mvc.csproj|c:\\users\\kutba\\desktop\\todoapp\\todoapp\\todoapp.mvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B7A8FD39-2FCF-2209-E1C7-B15BA9D46963}|ToDoApp.Mvc\\ToDoApp.Mvc.csproj|solutionrelative:todoapp.mvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84933BF6-34AE-E277-1D16-B6FBD3ECBF8E}|ToDoApp.DataAccess\\ToDoApp.DataAccess.csproj|c:\\users\\kutba\\desktop\\todoapp\\todoapp\\todoapp.dataaccess\\concrete\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84933BF6-34AE-E277-1D16-B6FBD3ECBF8E}|ToDoApp.DataAccess\\ToDoApp.DataAccess.csproj|solutionrelative:todoapp.dataaccess\\concrete\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7A8FD39-2FCF-2209-E1C7-B15BA9D46963}|ToDoApp.Mvc\\ToDoApp.Mvc.csproj|c:\\users\\kutba\\desktop\\todoapp\\todoapp\\todoapp.mvc\\controllers\\todocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7A8FD39-2FCF-2209-E1C7-B15BA9D46963}|ToDoApp.Mvc\\ToDoApp.Mvc.csproj|solutionrelative:todoapp.mvc\\controllers\\todocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84933BF6-34AE-E277-1D16-B6FBD3ECBF8E}|ToDoApp.DataAccess\\ToDoApp.DataAccess.csproj|c:\\users\\kutba\\desktop\\todoapp\\todoapp\\todoapp.dataaccess\\abstract\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84933BF6-34AE-E277-1D16-B6FBD3ECBF8E}|ToDoApp.DataAccess\\ToDoApp.DataAccess.csproj|solutionrelative:todoapp.dataaccess\\abstract\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CE56549-1981-86B5-D50C-75679D0D1EF6}|ToDoApp.Core\\ToDoApp.Core.csproj|c:\\users\\kutba\\desktop\\todoapp\\todoapp\\todoapp.core\\dtos\\auth\\createtododto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CE56549-1981-86B5-D50C-75679D0D1EF6}|ToDoApp.Core\\ToDoApp.Core.csproj|solutionrelative:todoapp.core\\dtos\\auth\\createtododto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7A8FD39-2FCF-2209-E1C7-B15BA9D46963}|ToDoApp.Mvc\\ToDoApp.Mvc.csproj|c:\\users\\kutba\\desktop\\todoapp\\todoapp\\todoapp.mvc\\views\\todo\\addtodo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B7A8FD39-2FCF-2209-E1C7-B15BA9D46963}|ToDoApp.Mvc\\ToDoApp.Mvc.csproj|solutionrelative:todoapp.mvc\\views\\todo\\addtodo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 211,
+          "SelectedChildIndex": 13,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{9842f08a-884d-4136-9922-43d2b83db7c2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3822e751-eb69-4b0e-b301-595a9e4c74d5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\kutba\\Desktop\\ToDoApp\\ToDoApp\\ToDoApp.Mvc\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "ToDoApp.Mvc\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\kutba\\Desktop\\ToDoApp\\ToDoApp\\ToDoApp.Mvc\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "ToDoApp.Mvc\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-23T08:33:41.408Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\kutba\\Desktop\\ToDoApp\\ToDoApp\\ToDoApp.Mvc\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "ToDoApp.Mvc\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\kutba\\Desktop\\ToDoApp\\ToDoApp\\ToDoApp.Mvc\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "ToDoApp.Mvc\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T08:33:38.718Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\kutba\\Desktop\\ToDoApp\\ToDoApp\\ToDoApp.Mvc\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "ToDoApp.Mvc\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\kutba\\Desktop\\ToDoApp\\ToDoApp\\ToDoApp.Mvc\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "ToDoApp.Mvc\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAcwD8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T08:33:31.298Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ToDoController.cs",
+              "DocumentMoniker": "C:\\Users\\kutba\\Desktop\\ToDoApp\\ToDoApp\\ToDoApp.Mvc\\Controllers\\ToDoController.cs",
+              "RelativeDocumentMoniker": "ToDoApp.Mvc\\Controllers\\ToDoController.cs",
+              "ToolTip": "C:\\Users\\kutba\\Desktop\\ToDoApp\\ToDoApp\\ToDoApp.Mvc\\Controllers\\ToDoController.cs",
+              "RelativeToolTip": "ToDoApp.Mvc\\Controllers\\ToDoController.cs",
+              "ViewState": "AgIAAJAAAAAAAAAAAAAswJgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-22T11:45:09.624Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\kutba\\Desktop\\ToDoApp\\ToDoApp\\ToDoApp.DataAccess\\Concrete\\AuthService.cs",
+              "RelativeDocumentMoniker": "ToDoApp.DataAccess\\Concrete\\AuthService.cs",
+              "ToolTip": "C:\\Users\\kutba\\Desktop\\ToDoApp\\ToDoApp\\ToDoApp.DataAccess\\Concrete\\AuthService.cs",
+              "RelativeToolTip": "ToDoApp.DataAccess\\Concrete\\AuthService.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAADwvzIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T08:08:44.527Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CreateToDoDto.cs",
+              "DocumentMoniker": "C:\\Users\\kutba\\Desktop\\ToDoApp\\ToDoApp\\ToDoApp.Core\\DTOs\\Auth\\CreateToDoDto.cs",
+              "RelativeDocumentMoniker": "ToDoApp.Core\\DTOs\\Auth\\CreateToDoDto.cs",
+              "ToolTip": "C:\\Users\\kutba\\Desktop\\ToDoApp\\ToDoApp\\ToDoApp.Core\\DTOs\\Auth\\CreateToDoDto.cs",
+              "RelativeToolTip": "ToDoApp.Core\\DTOs\\Auth\\CreateToDoDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-22T11:44:28.518Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "C:\\Users\\kutba\\Desktop\\ToDoApp\\ToDoApp\\ToDoApp.DataAccess\\Abstract\\IAuthService.cs",
+              "RelativeDocumentMoniker": "ToDoApp.DataAccess\\Abstract\\IAuthService.cs",
+              "ToolTip": "C:\\Users\\kutba\\Desktop\\ToDoApp\\ToDoApp\\ToDoApp.DataAccess\\Abstract\\IAuthService.cs",
+              "RelativeToolTip": "ToDoApp.DataAccess\\Abstract\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T08:09:11.477Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AddTodo.cshtml",
+              "DocumentMoniker": "C:\\Users\\kutba\\Desktop\\ToDoApp\\ToDoApp\\ToDoApp.Mvc\\Views\\ToDo\\AddTodo.cshtml",
+              "RelativeDocumentMoniker": "ToDoApp.Mvc\\Views\\ToDo\\AddTodo.cshtml",
+              "ToolTip": "C:\\Users\\kutba\\Desktop\\ToDoApp\\ToDoApp\\ToDoApp.Mvc\\Views\\ToDo\\AddTodo.cshtml",
+              "RelativeToolTip": "ToDoApp.Mvc\\Views\\ToDo\\AddTodo.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-22T11:43:32.299Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 288,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 304,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0174dea2-fdbe-4ef1-8f99-c0beae78880f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

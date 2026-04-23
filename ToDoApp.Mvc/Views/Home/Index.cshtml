@@ -1,0 +1,21 @@
+@{
+    ViewData["Title"] = "Start Your Journey";
+}
+
+<div class="row align-items-center justify-content-center" style="min-height: 70vh;">
+    <div class="col-md-8 col-lg-6 text-center">
+        <div class="glass-card">
+            <div class="mb-4">
+                <i class="bi bi-rocket-takeoff" style="font-size: 4rem; color: #764ba2;"></i>
+            </div>
+            <h1 class="display-4 fw-bold mb-3 text-gradient">Master Your Tasks</h1>
+            <p class="lead mb-5 text-dark fw-medium">
+                Organize your life, achieve your goals, and embrace productivity with our elegant and intuitive ToDo App.
+            </p>
+            <div class="d-grid gap-3 d-sm-flex justify-content-sm-center">
+                <a asp-controller="Auth" asp-action="Register" class="btn btn-modern btn-lg px-4 gap-3">Get Started Today free</a>
+                <a asp-controller="Auth" asp-action="Login" class="btn btn-modern-outline btn-lg px-4">I already have an account</a>
+            </div>
+        </div>
+    </div>
+</div>
