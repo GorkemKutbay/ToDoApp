@@ -26,7 +26,6 @@ ToDoApp/
 ├── ToDoApp.DataAccess       # Repository pattern, DbContext, service implementations
 ├── ToDoApp.Business         # AutoMapper profiles, business layer
 ├── ToDoApp.Mvc              # MVC server-side UI layer (Controllers, Views)
-├── ToDoApp.Api              # Web API layer (optional / in development)
 └── ToDoApp.slnx             # Solution file
 ```
 
@@ -38,7 +37,6 @@ ToDoApp/
 | **DataAccess** | `AppDbContext` (Identity-based), Generic Repository pattern (`IGenericRepository<T>`), `IToDoRepository`, `ICategoryRepository`, `IToDoService`, `ICategoryService`, `IAuthService` interfaces and their concrete implementations |
 | **Business** | AutoMapper mapping profiles (`ToDoMappingProfile`) |
 | **Mvc** | ASP.NET Core MVC Controllers (`AuthController`, `ToDoController`, `CategoryController`, `HomeController`), Razor Views, static files |
-| **Api** | RESTful API endpoints (in development) |
 
 ---
 
@@ -118,8 +116,7 @@ ToDoApp.Core/
     ├── RegisterDto.cs          # Registration form DTO
     ├── CreateToDoDto.cs        # Task creation DTO
     ├── UpdateToDoDto.cs        # Task update DTO
-    ├── TodoResponseDto.cs      # Task response DTO
-    └── TokenResponseDto.cs     # JWT token response DTO
+    └── TodoResponseDto.cs      # Task response DTO
 
 ToDoApp.DataAccess/
 ├── Abstract/
