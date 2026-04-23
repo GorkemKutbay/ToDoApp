@@ -1,169 +1,168 @@
-<<<<<<< HEAD
 # ✅ ToDoApp
 
-Kullanıcı bazlı görev yönetimi sağlayan, ASP.NET Core MVC ile geliştirilmiş full-stack bir yapılacaklar (To-Do) uygulamasıdır. Kullanıcılar kayıt olup giriş yapabilir, kendi kategorilerini oluşturabilir ve bu kategorilere bağlı görevlerini yönetebilir.
+A full-stack to-do application built with ASP.NET Core MVC, providing user-based task management. Users can register and log in, create their own categories, and manage tasks associated with those categories.
 
 ---
 
-## 📸 Özellikler
+## 📸 Features
 
-- 🔐 **Kimlik Doğrulama (Authentication)** — ASP.NET Core Identity ile kayıt, giriş ve çıkış işlemleri
-- 👤 **Kullanıcı Bazlı Veri İzolasyonu** — Her kullanıcı yalnızca kendi görev ve kategorilerini görüntüleyebilir
-- 📂 **Kategori Yönetimi** — Kullanıcıya özel kategori oluşturma, güncelleme ve silme
-- 📝 **Görev (ToDo) Yönetimi** — Görev ekleme, düzenleme, silme ve listeleme (CRUD)
-- 📅 **Tarih Takibi** — Görevlere bitiş tarihi (due date) atayabilme
-- 🏷️ **Kategoriye Göre Filtreleme** — Görevleri kategoriye göre filtreleme
-- 🔄 **AJAX Kategori Ekleme** — Görev ekleme formundan çıkmadan yeni kategori oluşturabilme
+- 🔐 **Authentication** — Registration, login, and logout via ASP.NET Core Identity
+- 👤 **User-Based Data Isolation** — Each user can only view their own tasks and categories
+- 📂 **Category Management** — Create, update, and delete user-specific categories
+- 📝 **Task (ToDo) Management** — Add, edit, delete, and list tasks (full CRUD)
+- 📅 **Due Date Tracking** — Assign due dates to tasks
+- 🏷️ **Filter by Category** — Filter tasks by category
+- 🔄 **AJAX Category Creation** — Create a new category without leaving the task creation form
 
 ---
 
-## 🏗️ Mimari (Architecture)
+## 🏗️ Architecture
 
-Proje, **katmanlı mimari (N-Tier / Layered Architecture)** prensibine uygun olarak aşağıdaki projelerden oluşmaktadır:
+The project follows **N-Tier / Layered Architecture** principles and consists of the following projects:
 
 ```
 ToDoApp/
-├── ToDoApp.Core            # Entity, DTO ve Fluent API konfigürasyonları
-├── ToDoApp.DataAccess       # Repository pattern, DbContext, servis implementasyonları
-├── ToDoApp.Business         # AutoMapper profilleri, iş katmanı
-├── ToDoApp.Mvc              # MVC sunucu tarafı UI katmanı (Controller, View)
-├── ToDoApp.Api              # Web API katmanı (opsiyonel / geliştirme aşamasında)
-└── ToDoApp.slnx             # Solution dosyası
+├── ToDoApp.Core            # Entities, DTOs, and Fluent API configurations
+├── ToDoApp.DataAccess       # Repository pattern, DbContext, service implementations
+├── ToDoApp.Business         # AutoMapper profiles, business layer
+├── ToDoApp.Mvc              # MVC server-side UI layer (Controllers, Views)
+├── ToDoApp.Api              # Web API layer (optional / in development)
+└── ToDoApp.slnx             # Solution file
 ```
 
-### Katman Detayları
+### Layer Details
 
-| Katman | Sorumluluk |
+| Layer | Responsibility |
 |---|---|
-| **Core** | `ToDoItem`, `Category`, `AppUser` entity'leri; DTO sınıfları (`LoginDto`, `RegisterDto`, `CreateToDoDto`, `UpdateToDoDto`); Fluent API configuration sınıfları |
-| **DataAccess** | `AppDbContext` (Identity tabanlı), Generic Repository pattern (`IGenericRepository<T>`), `IToDoRepository`, `ICategoryRepository`, `IToDoService`, `ICategoryService`, `IAuthService` arayüzleri ve bunların concrete implementasyonları |
-| **Business** | AutoMapper mapping profilleri (`ToDoMappingProfile`) |
-| **Mvc** | ASP.NET Core MVC Controller'ları (`AuthController`, `ToDoController`, `CategoryController`, `HomeController`), Razor View'ları, statik dosyalar |
-| **Api** | RESTful API endpoint'leri (geliştirme aşamasında) |
+| **Core** | `ToDoItem`, `Category`, `AppUser` entities; DTO classes (`LoginDto`, `RegisterDto`, `CreateToDoDto`, `UpdateToDoDto`); Fluent API configuration classes |
+| **DataAccess** | `AppDbContext` (Identity-based), Generic Repository pattern (`IGenericRepository<T>`), `IToDoRepository`, `ICategoryRepository`, `IToDoService`, `ICategoryService`, `IAuthService` interfaces and their concrete implementations |
+| **Business** | AutoMapper mapping profiles (`ToDoMappingProfile`) |
+| **Mvc** | ASP.NET Core MVC Controllers (`AuthController`, `ToDoController`, `CategoryController`, `HomeController`), Razor Views, static files |
+| **Api** | RESTful API endpoints (in development) |
 
 ---
 
-## 🛠️ Kullanılan Teknolojiler
+## 🛠️ Technologies Used
 
-| Teknoloji | Versiyon / Detay |
+| Technology | Version / Details |
 |---|---|
 | **.NET** | 8.0 |
 | **ASP.NET Core MVC** | .NET 8 |
 | **Entity Framework Core** | 8.0 (Code-First, Migrations) |
-| **ASP.NET Core Identity** | Kullanıcı yönetimi & kimlik doğrulama |
-| **SQL Server** | Veritabanı (LocalDB / SQL Server) |
-| **AutoMapper** | 16.x — DTO ↔ Entity dönüşümleri |
+| **ASP.NET Core Identity** | User management & authentication |
+| **SQL Server** | Database (LocalDB / SQL Server) |
+| **AutoMapper** | 16.x — DTO ↔ Entity mappings |
 | **Bootstrap** | Frontend UI framework |
-| **Bootstrap Icons** | İkon seti |
-| **Razor Views** | Sunucu tarafı HTML render |
+| **Bootstrap Icons** | Icon set |
+| **Razor Views** | Server-side HTML rendering |
 
 ---
 
-## 🤖 AI Destekli Geliştirme
+## 🤖 AI-Assisted Development
 
-Bu projenin **frontend (UI) tarafının geliştirilmesinde yapay zeka (AI) araçlarından** yararlanılmıştır. Razor View'ların, CSS tasarımının ve kullanıcı arayüzü bileşenlerinin oluşturulması sürecinde AI destekli kod üretimi kullanılarak **geliştirme süreci önemli ölçüde hızlandırılmıştır**.
+**AI tools were used to assist with the frontend (UI) development** of this project. The creation of Razor Views, CSS design, and UI components was accelerated through AI-assisted code generation, **significantly speeding up the development process**.
 
-> Backend mimarisi, veritabanı tasarımı, servis katmanı ve iş mantığı tamamen geliştirici tarafından tasarlanmış ve kodlanmıştır.
+> The backend architecture, database design, service layer, and business logic were entirely designed and coded by the developer.
 
 ---
 
-## ⚙️ Kurulum ve Çalıştırma
+## ⚙️ Setup & Running
 
-### Gereksinimler
+### Prerequisites
 
 - [.NET 8 SDK](https://dotnet.microsoft.com/download/dotnet/8.0)
-- [SQL Server](https://www.microsoft.com/en-us/sql-server/sql-server-downloads) (LocalDB veya tam sürüm)
-- Visual Studio 2022+ veya VS Code
+- [SQL Server](https://www.microsoft.com/en-us/sql-server/sql-server-downloads) (LocalDB or full version)
+- Visual Studio 2022+ or VS Code
 
-### Adımlar
+### Steps
 
-1. **Depoyu klonlayın:**
+1. **Clone the repository:**
    ```bash
-   git clone https://github.com/<kullanıcı-adınız>/ToDoApp.git
+   git clone https://github.com/<your-username>/ToDoApp.git
    cd ToDoApp
    ```
 
-2. **Connection string'i yapılandırın:**
+2. **Configure the connection string:**
 
-   `ToDoApp.Mvc/appsettings.json` dosyasındaki bağlantı dizesini kendi ortamınıza göre düzenleyin:
+   Edit the connection string in `ToDoApp.Mvc/appsettings.json` to match your environment:
    ```json
    "ConnectionStrings": {
      "Default": "Server=.;Database=ToDoApp;Trusted_Connection=True;TrustServerCertificate=Yes;"
    }
    ```
 
-3. **Veritabanını oluşturun (Migration):**
+3. **Create the database (Migration):**
    ```bash
    dotnet ef database update --project ToDoApp.DataAccess --startup-project ToDoApp.Mvc
    ```
 
-4. **Uygulamayı çalıştırın:**
+4. **Run the application:**
    ```bash
    dotnet run --project ToDoApp.Mvc
    ```
 
-5. Tarayıcınızda `https://localhost:5001` veya `http://localhost:5000` adresine gidin.
+5. Navigate to `https://localhost:5001` or `http://localhost:5000` in your browser.
 
 ---
 
-## 📁 Proje Yapısı (Detaylı)
+## 📁 Project Structure (Detailed)
 
 ```
 ToDoApp.Core/
 ├── Entities/
-│   ├── AppUser.cs              # Identity tabanlı kullanıcı entity'si
-│   ├── Category.cs             # Kategori entity + Fluent API config
-│   └── ToDoItem.cs             # Görev entity + Fluent API config
+│   ├── AppUser.cs              # Identity-based user entity
+│   ├── Category.cs             # Category entity + Fluent API config
+│   └── ToDoItem.cs             # Task entity + Fluent API config
 └── DTOs/Auth/
-    ├── LoginDto.cs             # Giriş formu DTO
-    ├── RegisterDto.cs          # Kayıt formu DTO
-    ├── CreateToDoDto.cs        # Görev oluşturma DTO
-    ├── UpdateToDoDto.cs        # Görev güncelleme DTO
-    ├── TodoResponseDto.cs      # Görev yanıt DTO
-    └── TokenResponseDto.cs     # JWT token yanıt DTO
+    ├── LoginDto.cs             # Login form DTO
+    ├── RegisterDto.cs          # Registration form DTO
+    ├── CreateToDoDto.cs        # Task creation DTO
+    ├── UpdateToDoDto.cs        # Task update DTO
+    ├── TodoResponseDto.cs      # Task response DTO
+    └── TokenResponseDto.cs     # JWT token response DTO
 
 ToDoApp.DataAccess/
 ├── Abstract/
-│   ├── IGenericRepository.cs   # Generic CRUD arayüzü
-│   ├── IToDoRepository.cs      # ToDo'ya özel repository arayüzü
-│   ├── ICategoryRepository.cs  # Kategori repository arayüzü
-│   ├── IToDoService.cs         # ToDo servis arayüzü
-│   ├── ICategoryService.cs     # Kategori servis arayüzü
-│   └── IAuthService.cs         # Kimlik doğrulama servis arayüzü
+│   ├── IGenericRepository.cs   # Generic CRUD interface
+│   ├── IToDoRepository.cs      # ToDo-specific repository interface
+│   ├── ICategoryRepository.cs  # Category repository interface
+│   ├── IToDoService.cs         # ToDo service interface
+│   ├── ICategoryService.cs     # Category service interface
+│   └── IAuthService.cs         # Authentication service interface
 ├── Concrete/
-│   ├── GenericRepository.cs    # Generic repository implementasyonu
-│   ├── ToDoRepository.cs       # ToDo repository implementasyonu
-│   ├── CategoryRepository.cs   # Kategori repository implementasyonu
-│   ├── ToDoService.cs          # ToDo servis implementasyonu
-│   ├── CategoryService.cs      # Kategori servis implementasyonu
-│   └── AuthService.cs          # Identity tabanlı auth servisi
+│   ├── GenericRepository.cs    # Generic repository implementation
+│   ├── ToDoRepository.cs       # ToDo repository implementation
+│   ├── CategoryRepository.cs   # Category repository implementation
+│   ├── ToDoService.cs          # ToDo service implementation
+│   ├── CategoryService.cs      # Category service implementation
+│   └── AuthService.cs          # Identity-based auth service
 ├── DataAcces/
 │   └── AppDbContext.cs         # EF Core DbContext (IdentityDbContext)
-└── Migrations/                 # EF Core migration dosyaları
+└── Migrations/                 # EF Core migration files
 
 ToDoApp.Business/
 └── Mapping/
-    └── ToDoMappingProfile.cs   # AutoMapper profili
+    └── ToDoMappingProfile.cs   # AutoMapper profile
 
 ToDoApp.Mvc/
 ├── Controllers/
-│   ├── HomeController.cs       # Ana sayfa
-│   ├── AuthController.cs       # Kayıt, giriş, çıkış
-│   ├── ToDoController.cs       # CRUD işlemleri + kategori filtreleme
-│   └── CategoryController.cs   # Kategori yönetimi
+│   ├── HomeController.cs       # Home page
+│   ├── AuthController.cs       # Register, login, logout
+│   ├── ToDoController.cs       # CRUD operations + category filtering
+│   └── CategoryController.cs   # Category management
 ├── Views/
-│   ├── Home/Index.cshtml       # Ana sayfa view'ı
-│   ├── Auth/Login.cshtml       # Giriş sayfası
-│   ├── Auth/Register.cshtml    # Kayıt sayfası
-│   ├── ToDo/GetAll.cshtml      # Görev listeleme
-│   ├── ToDo/AddTodo.cshtml     # Görev ekleme formu
-│   └── ToDo/UpdateTodo.cshtml  # Görev güncelleme formu
-└── wwwroot/                    # Statik dosyalar (CSS, JS, lib)
+│   ├── Home/Index.cshtml       # Home page view
+│   ├── Auth/Login.cshtml       # Login page
+│   ├── Auth/Register.cshtml    # Registration page
+│   ├── ToDo/GetAll.cshtml      # Task listing
+│   ├── ToDo/AddTodo.cshtml     # Task creation form
+│   └── ToDo/UpdateTodo.cshtml  # Task update form
+└── wwwroot/                    # Static files (CSS, JS, lib)
 ```
 
 ---
 
-## 📊 Veritabanı İlişkileri
+## 📊 Database Relationships
 
 ```mermaid
 erDiagram
@@ -198,24 +197,21 @@ erDiagram
 
 ---
 
-## 🔒 Güvenlik
+## 🔒 Security
 
-- Kullanıcı şifreleri **ASP.NET Core Identity** tarafından hash'lenerek saklanır
-- `[Authorize]` attribute'u ile korunan endpoint'ler
-- Kullanıcılar yalnızca **kendi verilerine** erişebilir (UserId bazlı filtreleme)
-- CSRF koruması (AntiForgeryToken) form gönderimlerinde aktif
-
----
-
-## 📝 Lisans
-
-Bu proje eğitim ve kişisel gelişim amacıyla oluşturulmuştur.
+- User passwords are hashed and stored by **ASP.NET Core Identity**
+- Endpoints are protected with the `[Authorize]` attribute
+- Users can only access **their own data** (filtered by UserId)
+- CSRF protection (AntiForgeryToken) is active on all form submissions
 
 ---
 
-## 📬 İletişim
+## 📝 License
 
-Sorularınız veya önerileriniz için GitHub üzerinden issue açabilirsiniz.
-=======
-# ToDoApp
->>>>>>> c2f7d810c1519d1e3224581ce4c3f67f3853267a
+This project was created for educational and personal development purposes.
+
+---
+
+## 📬 Contact
+
+Feel free to open an issue on GitHub for questions or suggestions.
