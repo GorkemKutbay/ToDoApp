@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ✅ ToDoApp
 
 Kullanıcı bazlı görev yönetimi sağlayan, ASP.NET Core MVC ile geliştirilmiş full-stack bir yapılacaklar (To-Do) uygulamasıdır. Kullanıcılar kayıt olup giriş yapabilir, kendi kategorilerini oluşturabilir ve bu kategorilere bağlı görevlerini yönetebilir.
@@ -215,3 +216,6 @@ Bu proje eğitim ve kişisel gelişim amacıyla oluşturulmuştur.
 ## 📬 İletişim
 
 Sorularınız veya önerileriniz için GitHub üzerinden issue açabilirsiniz.
+=======
+# ToDoApp
+>>>>>>> c2f7d810c1519d1e3224581ce4c3f67f3853267a
